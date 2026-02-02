@@ -1,0 +1,49 @@
+{
+    "geode": "4.10.2",
+    "gd": {
+        "android": "2.2074",
+        "win": "2.2074",
+        "mac": "2.2074",
+        "ios": "2.2074"
+    },
+    "version": "v1.0.0",
+    "id": "anticroom.integrated-tpl",
+    "name": "The Piss List",
+    "developer": "anticroom",
+    "description": "Integrated ranking for TPL challenges.",
+    "resources": {
+        "files": [
+            "resources/*.frag",
+            "resources/*.vert"
+        ],
+        "sprites": [
+            "resources/*.png"
+        ]
+    },
+    "settings": {
+        "enable-rank": {
+            "name": "Enable Ranking Text",
+            "description": "Whether or not to display the list ranking text on level cells.",
+            "type": "bool",
+            "default": true
+        },
+        "white-rank": {
+            "name": "White Ranking Text",
+            "description": "Whether or not to display the ranking text in white.",
+            "type": "bool",
+            "enable-if": "enable-rank",
+            "default": false
+        }
+    },
+    "dependencies": {
+        "geode.node-ids": ">=v1.9.0"
+    },
+    "links": {
+        "homepage": "https://www.thepisslist.com"
+    },
+    "tags": [
+        "content",
+        "interface",
+        "online"
+    ]
+}
