@@ -13,4 +13,4 @@ A simple Geode mod that integrates **[The Piss List](https://www.thepisslist.com
 - **hiimjasmine00** - Original Mod Creator
 
 ## License
-This mod is licensed under the [MIT License](LICENSE).
+This mod is licensed under the [MIT License](https://github.com/anticroom/IntegratedTPL/blob/main/LICENSE).
